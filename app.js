@@ -1,7 +1,6 @@
 var express = require('express');
 //global.appBasePath = __dirname;
 
-console.log("sjdfhgsjghf")
 //require('app-module-path').addPath(appBasePath);
 
 var path = require('path');
@@ -100,16 +99,7 @@ res.render('error', {
 
 var http = require("http");
 var server = http.createServer(function(request, response) {
-   /* response.writeHead(400, {"Content-Type": "text/html"});
-    response.write("<!DOCTYPE 'html'>");
-    response.write("<html>");
-    response.write("<head>");
-    response.write("<title>Hello World Page</title>");
-    response.write("</head>");
-    response.write("<body>");
-    response.write("Hello World!");
-    response.write("</body>");
-    response.write("</html>");*/
+  
     
 });
 
