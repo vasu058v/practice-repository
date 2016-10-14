@@ -113,8 +113,8 @@ var server = http.createServer(function(request, response) {
     
 });
 
-server.listen(80);
-console.log("Server is listening on port");
+/*server.listen(80);
+console.log("Server is listening on port");*/
 
 module.exports = app;
 
